@@ -38,3 +38,4 @@ This application is built using Apache, javascript and mysql.
  	PRIMARY KEY (`imageid`)
 	) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=latin1
 	```
+	
