@@ -7,7 +7,7 @@ This application is built using Apache, javascript and mysql.
 ####Setup instructions
 
 1. Install Xampp - https://www.apachefriends.org/index.html  
-	Xampp has Apache and MySQL bundled and makes it easy to install.
+	Xampp has Apache and MySQL bundled and makes it easy to install.  
 2. Download all files from git
 > $ git clone https://github.com/chowdaryd/ImageCon.git
 3. Move files/folder into apache.
@@ -56,6 +56,6 @@ base - CSS for all webpages
 db_config - database configuration file  
 
 ####References
-PHP documentation - http://php.net/manual/en/
-More Documentation - https://www.w3schools.com/
-Pagination code - http://stackoverflow.com/questions/14451364/php-code-for-display-10-records-from-mysql-dynamically
+PHP documentation - http://php.net/manual/en/  
+More Documentation - https://www.w3schools.com/  
+Pagination code - http://stackoverflow.com/questions/14451364/php-code-for-display-10-records-from-mysql-dynamically  
