@@ -40,20 +40,20 @@ This application is built using Apache, javascript and mysql.
 	```
 
 ####Files
-index - Homepage for website
-upload - Image upload form
-img_upload - serverside PHP to handle image upload
-login - login form
-user_login - serverside PHP to verify login
-register - register form
-user_register - serverside PHP to register new users
-logout - serverside PHP to logout users
-profile - user's profile - edit/delete own pictures
-edit - update caption form
-edit_image - serverside PHP to update caption
-delete - serverside PHP to delete user's images
-base - CSS for all webpages
-db_config - database configuration file
+index - Homepage for website  
+upload - Image upload form  
+img_upload - serverside PHP to handle image upload  
+login - login form  
+user_login - serverside PHP to verify login  
+register - register form  
+user_register - serverside PHP to register new users  
+logout - serverside PHP to logout users  
+profile - user's profile - edit/delete own pictures  
+edit - update caption form  
+edit_image - serverside PHP to update caption  
+delete - serverside PHP to delete user's images  
+base - CSS for all webpages  
+db_config - database configuration file  
 
 ####References
 PHP documentation - http://php.net/manual/en/
