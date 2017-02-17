@@ -1,7 +1,7 @@
 <!--
-________________LOGIN.PHP_____________________________________________
+________________REGISTER.PHP_____________________________________________
         Attributes
-Login Page for users
+Register page for new users
 _______________________________________________________________________
 -->
 
@@ -19,7 +19,7 @@ _______________________________________________________________________
     
     <?php 
         $csrf1 = bin2hex(random_bytes(64));     //Login form CSRF Token Generation
-        $_SESSION['csrflog'] = $csrf1;
+        $_SESSION['csrfreg'] = $csrf1;
     ?>
 <div id="layout" class="body">
     <!-- Header/Topbar -->
@@ -42,31 +42,28 @@ _______________________________________________________________________
     <div class="login">
         <?php 
             if (isset($_GET['msg'])){           //Login Success/Fail Banner
-                if ($_GET["msg"]=="fail"){
-                    echo "<font color='red'>Invalid Username/Password. Please try again</font>";
+                if ($_GET["msg"]=="regut"){
+                    echo "<font color='red'>Username is already taken. Please try again</font>";
                 }
-                else if ($_GET["msg"]=="regs"){
-                    echo "Registration was a success";
+                else if ($_GET["msg"]=="regf"){
+                    echo "<font color='red'>Registration failed. Please try again</font>";
                 }
             }
         ?>
         <table class="tab1">        <!-- Login Form -->
-            <form method="post" action="user_login.php" >
+            <form method="post" action="user_register.php" >
             <input type="hidden" name="token" value="<?php echo $csrf1 ?>">
             <tr>
-                <td id="user"><input type="text" id="username" name="username" placeholder="Username"></td>
+                <td id="user"><input type="text" id="username" name="username" placeholder="Enter new Username"></td>
             </tr>
             <tr>
-                <td id="pass"><input type="password" name="password" id="password" placeholder="Password"></td>
+                <td id="pass"><input type="password" name="password" id="password" placeholder="Enter new Password"></td>
             </tr>
             <tr>
                 <td id="usub"><input type="submit" name="login" value="Login"></td>
             </tr>
             
             </form>
-            <tr>
-                <td><a href="register.php">New user?</a></td>
-            </tr>
         </table>
     </div>
     <div>
