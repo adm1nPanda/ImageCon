@@ -4,11 +4,6 @@ ________________INDEX.PHP_____________________________________________
 Webpage Displays All The Images
 Most Recent First
 Images Displayed 10 at a time.
-
-REFERENCES -
-PHP documentation - http://php.net/manual/en/
-More Documentation - https://www.w3schools.com/
-Pagination code - http://stackoverflow.com/questions/14451364/php-code-for-display-10-records-from-mysql-dynamically
 _______________________________________________________________________
 -->
 

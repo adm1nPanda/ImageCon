@@ -6,7 +6,7 @@ This application is built using Apache, javascript and mysql.
 
 ####Setup instructions
 
-1. Install Xampp - https://www.apachefriends.org/index.html
+1. Install Xampp - https://www.apachefriends.org/index.html  
 	Xampp has Apache and MySQL bundled and makes it easy to install.
 2. Download all files from git
 > $ git clone https://github.com/chowdaryd/ImageCon.git
@@ -38,4 +38,24 @@ This application is built using Apache, javascript and mysql.
  	PRIMARY KEY (`imageid`)
 	) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=latin1
 	```
-	
+
+####Files
+index - Homepage for website
+upload - Image upload form
+img_upload - serverside PHP to handle image upload
+login - login form
+user_login - serverside PHP to verify login
+register - register form
+user_register - serverside PHP to register new users
+logout - serverside PHP to logout users
+profile - user's profile - edit/delete own pictures
+edit - update caption form
+edit_image - serverside PHP to update caption
+delete - serverside PHP to delete user's images
+base - CSS for all webpages
+db_config - database configuration file
+
+####References
+PHP documentation - http://php.net/manual/en/
+More Documentation - https://www.w3schools.com/
+Pagination code - http://stackoverflow.com/questions/14451364/php-code-for-display-10-records-from-mysql-dynamically
