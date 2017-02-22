@@ -55,6 +55,9 @@ delete - serverside PHP to delete user's images
 base - CSS for all webpages  
 db_config - database configuration file  
 
+####Terms of Use
+Feel free to use or modify this code.
+
 ####References
 PHP documentation - http://php.net/manual/en/  
 More Documentation - https://www.w3schools.com/  
