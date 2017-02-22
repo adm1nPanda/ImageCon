@@ -1,5 +1,6 @@
 ##ImageCON
 ###A simple web application to upload images.
+My attempt to build a simple and secure web application.
 
 ####Dependancies
 This application is built using Apache, javascript and mysql.
@@ -56,7 +57,7 @@ base - CSS for all webpages
 db_config - database configuration file  
 
 ####Terms of Use
-Feel free to use or modify this code.
+Feel free to use or modify this code.  
 
 ####References
 PHP documentation - http://php.net/manual/en/  
