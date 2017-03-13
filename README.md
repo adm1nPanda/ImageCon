@@ -3,7 +3,7 @@
 My attempt to build a simple and secure web application.
 
 ####Dependancies
-This application is built using Apache, javascript and mysql.
+This application is built using Apache 2.4.18, PHP 7.0.15, javascript and mysql.
 
 ####Setup instructions
 
